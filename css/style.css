@@ -1,0 +1,16 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    border: 1px solid yellow;
+}
+
+.imagem {
+    border: 1px solid red;
+    height: 100%;
+}
+
+.conteudo {
+    border: 1px solid blue;
+    height: 600px;
+}
