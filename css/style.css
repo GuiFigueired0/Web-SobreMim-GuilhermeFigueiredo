@@ -4,10 +4,30 @@ body, html {
     height: 100%;
 }
 
-.imagem {
-    border: 1px solid red;
+.caixa {
     height: 100%;
 }
+
+.imagem3 { 
+    background: #2EFE2E  url(../images/violao.png);
+    height: 100%;
+    border: 2px solid red;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imagem5 { 
+    background: #FE2E64 url(../images/servindo-igreja.jpg);
+    height: 100%;
+    border: 2px solid red;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 .conteudo {
     padding: 3% 4%;
@@ -15,7 +35,20 @@ body, html {
     border: 1px solid blue;
     height: 600px;
     min-width: 650px;
-    display: flex;
+    /*display: flex;*/
+}
+
+#musica {
+    background: linear-gradient( #18cf1e, #c6d335) no-repeat;
+}
+
+#arte {
+    background: linear-gradient( #e4ef13, #f18219) no-repeat;
+}
+
+#religiao {
+    background: linear-gradient( #cb1a1a, #e411bd) no-repeat;
+    height: 100%;
 }
 
 /*** Pagina sobre Arte***/
