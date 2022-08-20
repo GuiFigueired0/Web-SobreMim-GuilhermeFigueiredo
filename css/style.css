@@ -4,6 +4,10 @@ body, html {
     height: 100%;
 }
 
+#container-principal {
+    background: linear-gradient( #FA1690, #C61AA9, #7905BB, #150AAE, #04B3CE, #13EA88, #29CF20, #C5E818, #DDB010, #C3370B, #DC1A1D) no-repeat;
+}
+
 .caixa {
     height: 100%;
 }
@@ -31,13 +35,14 @@ body, html {
 
 .conteudo {
     padding: 3% 4%;
-    background: linear-gradient( #180add, #ba08d1) no-repeat;
+    /*background: linear-gradient( #180add, #ba08d1) no-repeat;*/
     border: 1px solid blue;
     height: 600px;
     min-width: 650px;
     /*display: flex;*/
 }
 
+/*
 #musica {
     background: linear-gradient( #18cf1e, #c6d335) no-repeat;
 }
@@ -50,6 +55,7 @@ body, html {
     background: linear-gradient( #cb1a1a, #e411bd) no-repeat;
     height: 100%;
 }
+*/
 
 /*** Pagina sobre Arte***/
 #livros {
@@ -132,4 +138,33 @@ ul li:hover{
     border-bottom: #8b41b0 1px;
     box-shadow: 15px 15px rgba(0, 0, 0, 0.5);
     text-align: center;
+}
+
+/**** TESTE IMAGEM ***/
+.teste {
+    /*height: 100%;*/
+    height: 800px;
+    border: 5px solid pink;
+}
+
+#imagem-caixa {
+    width: 80%;
+    height: 90%;
+    background: url(../images/violao.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    margin: auto auto;
+}
+
+#imagem-missa{
+    width: 80%;
+    height: 90%;
+    background: url(../images/servindo-igreja.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    margin: auto;
 }
