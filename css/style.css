@@ -51,18 +51,14 @@ body, html {
     background: linear-gradient( #e4ef13, #f18219) no-repeat;
 }
 
-#religiao {
-    background: linear-gradient( #cb1a1a, #e411bd) no-repeat;
-    height: 100%;
-}
+
 */
 
 /*** Pagina sobre Arte***/
 #livros {
-    background-color: #ba08d1;
+    /*background-color: #ba08d1;*/
     box-shadow: 20px 20px rgba(0, 0, 0, 0.5);
     border-radius: 20px;
-    border: 2px solid orange;
     min-width: 40%;
     max-width: 40%;
     min-height: 60%;
@@ -142,9 +138,8 @@ ul li:hover{
 
 /**** TESTE IMAGEM ***/
 .teste {
-    /*height: 100%;*/
     height: 800px;
-    border: 5px solid pink;
+    border-color: #C3370B, #DC1A1D, #DC1A1D,  #C3370B;
 }
 
 #imagem-caixa {
@@ -166,5 +161,175 @@ ul li:hover{
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 20px;
+    box-shadow: 0px 0px 30px 25px rgba(124, 41, 0, 0.91);
+    border: 5px solid;
+    border-color: #C3370B #DC1A1D #DC1A1D  #C3370B;
     margin: auto;
 }
+
+#imagem-musica{
+    width: 80%;
+    height: 90%;
+    background: url(../images/violao.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px 25px rgba(0, 124, 35, 0.91);
+    border: 5px solid;
+    border-color: #0bc33c #0b6e03 #0b6e03 #0bc33c;
+    margin: auto;
+}
+
+#imagem-arte{
+    width: 80%;
+    height: 90%;
+    background: url(../images/violao.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px 25px rgba(0, 124, 35, 0.91);
+    border: 5px solid;
+    border-color: #0bc33c #0b6e03 #0b6e03 #0bc33c;
+    margin: auto;
+}
+
+/*** RELIGIAO ***/
+#religiao {
+    height: 720px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#box-religiao {
+    background-color: rgba(232, 82, 12, 0.905);
+    box-shadow: -20px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    min-width: 40%;
+    max-width: 40%;
+    min-height: 60%;
+    max-height: 90%;
+    padding: 1%;
+}
+
+#box-religiao p {
+    color:#ffd5c8;
+}
+
+#caminhao {
+    width: 25%;
+    border: 7px solid;
+    border-color:#d9870de2 #d9540de2 #b23614 #c9891b;
+    box-shadow: 0px 0px 30px 25px rgb(124, 0, 0);
+}
+
+#caminhao img {
+    width: 100%;
+}
+
+/*** Musica ***/
+#musica {
+    height: 720px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#box-musica {
+    background-color: rgba(90, 186, 34, 0.905);
+    box-shadow: -20px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    min-width: 40%;
+    max-width: 40%;
+    min-height: 60%;
+    max-height: 90%;
+    padding: 1%;
+}
+
+#box-musica p {
+    color:#b6ffb7;
+}
+
+#violao {
+    /*height: 80%;*/
+    width: 30%;
+    border: 7px solid;
+    border-color:#c4e824e2 #65dd1be2 #399719 #bde83c;
+    box-shadow: 0px 0px 30px 25px rgb(6, 124, 0);
+}
+
+#violao img {
+    width: 100%;
+}
+
+/*** Arte ***/
+#arte {
+    height: 720px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#box-arte {
+    background-color: rgba(198, 160, 35, 0.905);
+    box-shadow: -20px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    min-width: 40%;
+    max-width: 40%;
+    min-height: 60%;
+    max-height: 90%;
+    padding: 1%;
+}
+
+#box-arte p {
+    color:#ffe7cb;
+}
+
+#desenho {
+    width: 35%;
+    border: 7px solid;
+    border-color:#d4ca0de2 #ec8c1fe2 #a15912 #c6c91b;
+    box-shadow: 0px 0px 30px 25px rgb(130, 130, 10);
+}
+
+#desenho img {
+    width: 100%;
+}
+
+/*** Musica ***/
+/*
+#musica {
+    height: 720px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#box-musica {
+    background-color: rgba(90, 186, 34, 0.905);
+    box-shadow: -20px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    min-width: 40%;
+    max-width: 40%;
+    min-height: 60%;
+    max-height: 90%;
+    padding: 1%;
+}
+
+#box-musica p {
+    color:#b6ffb7;
+}
+
+#violao {
+    width: 30%;
+    border: 7px solid;
+    border-color:#c4e824e2 #65dd1be2 #399719 #bde83c;
+    box-shadow: 0px 0px 30px 25px rgb(6, 124, 0);
+}
+
+#violao img {
+    width: 100%;
+}
+*/
