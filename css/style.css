@@ -8,31 +8,6 @@ body, html {
     background: linear-gradient( #FA1690, #C61AA9, #7905BB, #150AAE, #04B3CE, #13EA88, #29CF20, #C5E818, #DDB010, #C3370B, #DC1A1D) no-repeat;
 }
 
-.caixa {
-    height: 100%;
-}
-
-.imagem3 { 
-    background: #2EFE2E  url(../images/violao.png);
-    height: 100%;
-    border: 2px solid red;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.imagem5 { 
-    background: #FE2E64 url(../images/servindo-igreja.jpg);
-    height: 100%;
-    border: 2px solid red;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
 .conteudo {
     padding: 3% 4%;
     /*background: linear-gradient( #180add, #ba08d1) no-repeat;*/
@@ -41,51 +16,6 @@ body, html {
     min-width: 650px;
     /*display: flex;*/
 }
-
-/*
-#musica {
-    background: linear-gradient( #18cf1e, #c6d335) no-repeat;
-}
-
-#arte {
-    background: linear-gradient( #e4ef13, #f18219) no-repeat;
-}
-
-
-*/
-
-/*** Pagina sobre Arte***/
-#livros {
-    /*background-color: #ba08d1;*/
-    box-shadow: 20px 20px rgba(0, 0, 0, 0.5);
-    border-radius: 20px;
-    min-width: 40%;
-    max-width: 40%;
-    min-height: 60%;
-    max-height: 90%;
-    padding: 1%;
-}
-
-#arte {
-    justify-content: center;
-    flex-wrap: wrap;
-}
-/*
-#desenho {
-    width: 400px;
-    height: 400px;
-    border-radius: 100px;
-    background: url(../images/desenho2.jpeg ) no-repeat center;
-    z-index: 5;
-}
-#desenho img{
-    width: 100%;
-    height: 100%;
-}
-*/
-
-
-/**** ****/
 
 p{
     color: #fff;
@@ -107,39 +37,24 @@ p{
     background-color: #e907e1;
 }
 
-ul{
-    float: right;
-    list-style: none;
-    border: 5px solid red;
-    
+/**** TESTE IMAGEM ***/
+.teste {
+    height: 700px;
+    border-color: #C3370B, #DC1A1D, #DC1A1D,  #C3370B;
 }
 
-ul a{
-    text-decoration: none;
-    padding: 5px;
-    font-size: 1.2em;
-    color: #fff;
-    line-height: 2.5em;
-}
-
-ul li:hover{
-    background-color: #ba08d1;
-    cursor: pointer;
-}
-
-#barra-horizontal li {
-    padding: 5px;
-    width:250px;
-    background: #de45c0;
-    border-bottom: #8b41b0 1px;
-    box-shadow: 15px 15px rgba(0, 0, 0, 0.5);
+.conteudo-titulo {
+    width: 100%;
     text-align: center;
 }
 
-/**** TESTE IMAGEM ***/
-.teste {
-    height: 800px;
-    border-color: #C3370B, #DC1A1D, #DC1A1D,  #C3370B;
+span.titulo {
+    color:#fff;
+    text-transform: uppercase;
+    background: radial-gradient(to right, #DC1A1D  #C3370B);
+    padding: 18px;
+    font-size: 35px;
+    letter-spacing: 5px;
 }
 
 #imagem-caixa {
@@ -151,6 +66,44 @@ ul li:hover{
     background-size: cover;
     border-radius: 20px;
     margin: auto auto;
+}
+
+#imagem-academica{
+    width: 80%;
+    height: 90%;
+    background: url(../images/diploma.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px 25px rgba(120, 0, 124, 0.91);
+    border: 5px solid;
+    border-color: #e83cce #c61bdde2 #801997 #e824bee2;
+    margin: auto;
+    opacity: 0.8;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#imagem-lazer{
+    width: 80%;
+    height: 90%;
+    background: url(../images/computamigos.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px 25px rgba(6, 0, 124, 0.91);
+    border: 5px solid;
+    border-color: #1ba3dde2 #3c48e8 #3c48e8 #1ba3dde2;
+    margin: auto;
+    opacity: 0.8;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #imagem-missa{
@@ -165,6 +118,12 @@ ul li:hover{
     border: 5px solid;
     border-color: #C3370B #DC1A1D #DC1A1D  #C3370B;
     margin: auto;
+    opacity: 0.8;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 #imagem-musica{
@@ -179,20 +138,30 @@ ul li:hover{
     border: 5px solid;
     border-color: #0bc33c #0b6e03 #0b6e03 #0bc33c;
     margin: auto;
+    opacity: 0.8;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #imagem-arte{
     width: 80%;
     height: 90%;
-    background: url(../images/violao.png);
+    background: url(../images/desenho.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 20px;
-    box-shadow: 0px 0px 30px 25px rgba(0, 124, 35, 0.91);
+    box-shadow: 0px 0px 30px 25px rgba(109, 124, 0, 0.91);
     border: 5px solid;
-    border-color: #0bc33c #0b6e03 #0b6e03 #0bc33c;
+    border-color:#6dc020 #c0c30b #c0c30b  #6dc020 ;
     margin: auto;
+    opacity: 0.8;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /*** RELIGIAO ***/
@@ -235,6 +204,7 @@ ul li:hover{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 #box-musica {
@@ -268,13 +238,14 @@ ul li:hover{
 #arte {
     height: 720px;
     display: flex;
+    flex-direction: row-reverse;
     justify-content: space-around;
     align-items: center;
 }
 
 #box-arte {
     background-color: rgba(198, 160, 35, 0.905);
-    box-shadow: -20px 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 20px 20px rgba(0, 0, 0, 0.5);
     border-radius: 20px;
     min-width: 40%;
     max-width: 40%;
@@ -288,9 +259,9 @@ ul li:hover{
 }
 
 #desenho {
-    width: 35%;
+    width: 20%;
     border: 7px solid;
-    border-color:#d4ca0de2 #ec8c1fe2 #a15912 #c6c91b;
+    border-color:#d4ca0de2 #c6c91b #a15912 #ec8c1fe2;
     box-shadow: 0px 0px 30px 25px rgb(130, 130, 10);
 }
 
@@ -298,38 +269,68 @@ ul li:hover{
     width: 100%;
 }
 
-/*** Musica ***/
-/*
-#musica {
-    height: 720px;
+/*** Lazer ***/
+#lazer {
+    height: 800px;
     display: flex;
+    flex-direction: row-reverse;
     justify-content: space-around;
     align-items: center;
 }
 
-#box-musica {
-    background-color: rgba(90, 186, 34, 0.905);
+#box-lazer {
+    background-color: rgba(35, 152, 198, 0.905);
+    box-shadow: 20px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    min-width: 40%;
+    max-width: 40%;
+    padding: 1%;
+}
+
+#box-lazer p {
+    color:#cbfbff;
+}
+
+#livro {
+    width: 30%;
+    border: 7px solid;
+    border-color:#0dd4c0e2 #1bc6c9 #2f8e78e2 #12a171;
+    box-shadow: 0px 0px 30px 25px rgb(10, 130, 118);
+}
+
+#livro img {
+    width: 100%;
+}
+
+/*** Vida Acadêmica ***/
+#vida-academica {
+    height: 720px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#box-academico {
+    background-color: rgba(166, 34, 186, 0.905);
     box-shadow: -20px 20px rgba(0, 0, 0, 0.5);
     border-radius: 20px;
     min-width: 40%;
     max-width: 40%;
-    min-height: 60%;
-    max-height: 90%;
     padding: 1%;
 }
 
-#box-musica p {
-    color:#b6ffb7;
+#box-academico p {
+    color:#ffb6f4;
 }
 
-#violao {
-    width: 30%;
+#simave {
+    width: 25%;
     border: 7px solid;
-    border-color:#c4e824e2 #65dd1be2 #399719 #bde83c;
-    box-shadow: 0px 0px 30px 25px rgb(6, 124, 0);
+    border-color: #e83cce #c61bdde2 #801997 #e824bee2;
+    box-shadow: 0px 0px 30px 25px rgb(97, 0, 124);
 }
 
-#violao img {
+#simave img {
     width: 100%;
 }
-*/
