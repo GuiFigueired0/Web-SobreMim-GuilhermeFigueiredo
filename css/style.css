@@ -4,6 +4,10 @@ body, html {
     height: 100%;
 }
 
+span {
+    font-family: "Lato", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 #container-principal {
     background: linear-gradient( #FA1690, #C61AA9, #7905BB, #150AAE, #04B3CE, #13EA88, #29CF20, #C5E818, #DDB010, #C3370B, #DC1A1D) no-repeat;
 }
@@ -87,6 +91,11 @@ span.titulo {
     justify-content: center;
 }
 
+#imagem-academica span {
+    background-color: rgba(188, 20, 203, 0.803);
+    border-radius: 10px;
+}
+
 #imagem-lazer{
     width: 80%;
     height: 90%;
@@ -106,6 +115,11 @@ span.titulo {
     justify-content: center;
 }
 
+#imagem-lazer span {
+    background-color: rgba(20, 93, 203, 0.803);
+    border-radius: 10px;
+}
+
 #imagem-missa{
     width: 80%;
     height: 90%;
@@ -123,7 +137,11 @@ span.titulo {
     display: flex;
     align-items: center;
     justify-content: center;
+}
 
+#imagem-missa span {
+    background-color: rgba(203, 20, 20, 0.803);
+    border-radius: 10px;
 }
 
 #imagem-musica{
@@ -145,6 +163,11 @@ span.titulo {
     justify-content: center;
 }
 
+#imagem-musica span {
+    background-color: rgba(41, 203, 20, 0.803);
+    border-radius: 10px;
+}
+
 #imagem-arte{
     width: 80%;
     height: 90%;
@@ -162,6 +185,11 @@ span.titulo {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#imagem-arte span {
+    background-color: rgba(151, 203, 20, 0.803);
+    border-radius: 10px;
 }
 
 /*** RELIGIAO ***/
