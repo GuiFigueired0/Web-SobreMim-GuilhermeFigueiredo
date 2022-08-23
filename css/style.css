@@ -16,16 +16,14 @@ span {
 
 .conteudo-principal {
     height: 750px;
-    border: 5px solid yellow;
 
     display: flex;
-    background: url(../images/logo-recortada.png);
     background-repeat: no-repeat;
     background-position: top center;
 
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-around;
-    align-items: flex-end;
+    align-items: center;
 }
 
 
@@ -82,7 +80,7 @@ span.titulo {
     border: 5px solid;
     border-color: #e83cce #c61bdde2 #801997 #e824bee2;
     margin: auto;
-    opacity: 0.8;
+    opacity: 0.6;
 
     display: flex;
     align-items: center;
@@ -90,7 +88,7 @@ span.titulo {
 }
 
 #imagem-academica span {
-    background-color: rgba(188, 20, 203, 0.5);
+    /*background-color: rgba(188, 20, 203, 1);*/
     border-radius: 10px;
 }
 
@@ -380,11 +378,21 @@ span.titulo {
 }
 
 /* Coluna Meio */
-#coluna-meio {
-    width: 30%;
+/*#coluna-meio {
+    width: 60%;
     min-width: 250px;
-    margin-bottom: 125px;
-    /*border: 5px solid green;*/
+    /*border: 5px solid green;
+    font-size: 1.8em;
+    background: rgba(255, 234, 0, 0.15);
+    border-radius: 20px;
+    padding: 15px;
+}*/
+
+#coluna-meio {
+    width: 60%;
+    min-width: 300px;
+    height: 90%;
+    min-width: 250px;
     font-size: 1.8em;
     background: rgba(255, 234, 0, 0.15);
     border-radius: 20px;
@@ -398,12 +406,10 @@ span.titulo {
 /*Coluna Direita */
 #coluna-direita {
     width: 30%;
-    min-width: 300px;
-    margin-bottom: 75px;
+    min-width: 400px;
     font-size: 1.3em;
     background: rgba(230, 0, 255, 0.15);
     border-radius: 20px;
-    padding: 15px;
 }
 
 #coluna-direita p {
@@ -411,13 +417,17 @@ span.titulo {
 }
 
 #perfil {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    min-width: 200px;
+    height: 350px;
+    min-height: 200px;
     background: url(../images/perfil-pequeno.jpeg);
-    border-radius: 200px;
+    border-radius: 175px;
     background-position: center;
     background-size: cover;
     border: 5px solid #c61bdde2;
-    margin-right: 25px;
-    margin-left: 25px;
+}
+
+#coluna-meio img{
+    width: 90%;
 }
