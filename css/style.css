@@ -2,6 +2,7 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100%;
+    max-height: 1500px;
     min-width: 700px;
 }
 
@@ -22,7 +23,7 @@ span {
     background-repeat: no-repeat;
     background-position: top center;
 
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: flex-end;
 }
@@ -362,16 +363,51 @@ span.titulo {
 
 /*** PAGINA PRINCIPAL ***/
 
-/* Coluna Direita */
+/* Coluna Esquerda */
 #coluna-esquerda {
     width: 30%;
-    border: 5px solid blue;
-    margin-bottom: 20px;
+    min-width: 300px;
+    /*border: 5px solid blue;*/
+    margin-bottom: 100px;
     font-size: 1.2em;
+    background: rgba(0, 238, 255, 0.15);
+    border-radius: 20px;
+    padding: 15px;
 }
 
 #coluna-esquerda p {
     color: #00eaff;
+}
+
+/* Coluna Meio */
+#coluna-meio {
+    width: 30%;
+    min-width: 250px;
+    margin-bottom: 125px;
+    /*border: 5px solid green;*/
+    font-size: 1.8em;
+    background: rgba(255, 234, 0, 0.15);
+    border-radius: 20px;
+    padding: 15px;
+}
+
+#coluna-meio p {
+   color: #ffd412; 
+}
+
+/*Coluna Direita */
+#coluna-direita {
+    width: 30%;
+    min-width: 300px;
+    margin-bottom: 75px;
+    font-size: 1.3em;
+    background: rgba(230, 0, 255, 0.15);
+    border-radius: 20px;
+    padding: 15px;
+}
+
+#coluna-direita p {
+    color: #d68eff;
 }
 
 #perfil {
@@ -384,32 +420,4 @@ span.titulo {
     border: 5px solid #c61bdde2;
     margin-right: 25px;
     margin-left: 25px;
-}
-
-#coluna-direita {
-    width: 30%;
-}
-
-/* Coluna Meio */
-#coluna-meio {
-    width: 30%;
-    margin-bottom: 75px;
-    border: 5px solid green;
-    font-size: 1.8em;
-}
-
-#coluna-meio p {
-   color: #ffdc41; 
-}
-
-/*Coluna Direita */
-#coluna-direita {
-    width: 30%;
-    margin-bottom: 20px;
-    border: 5px solid red;
-    font-size: 1.2em;
-}
-
-#coluna-direita p {
-    color: #cd77ff;
 }
