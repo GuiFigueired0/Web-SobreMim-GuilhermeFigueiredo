@@ -2,7 +2,7 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100%;
-    min-width: 650px;
+    min-width: 700px;
 }
 
 span {
@@ -201,10 +201,9 @@ span.titulo {
     background-color: rgba(232, 82, 12, 0.905);
     box-shadow: -20px 20px rgba(0, 0, 0, 0.5);
     border-radius: 20px;
-    min-width: 40%;
-    max-width: 40%;
-    min-height: 60%;
-    max-height: 90%;
+    width: 40%;
+    min-width: 450px;
+    max-height: 100%;
     padding: 1%;
 }
 
@@ -236,8 +235,8 @@ span.titulo {
     background-color: rgba(90, 186, 34, 0.905);
     box-shadow: -20px 20px rgba(0, 0, 0, 0.5);
     border-radius: 20px;
-    min-width: 40%;
-    max-width: 40%;
+    width: 40%;
+    min-width: 425px;
     min-height: 60%;
     max-height: 90%;
     padding: 1%;
@@ -272,8 +271,8 @@ span.titulo {
     background-color: rgba(198, 160, 35, 0.905);
     box-shadow: 20px 20px rgba(0, 0, 0, 0.5);
     border-radius: 20px;
-    min-width: 40%;
-    max-width: 40%;
+    width: 40%;
+    min-width: 450px;
     min-height: 60%;
     max-height: 90%;
     padding: 1%;
@@ -296,7 +295,7 @@ span.titulo {
 
 /*** Lazer ***/
 #lazer {
-    height: 800px;
+    height: 900px;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
@@ -307,8 +306,9 @@ span.titulo {
     background-color: rgba(35, 152, 198, 0.905);
     box-shadow: 20px 20px rgba(0, 0, 0, 0.5);
     border-radius: 20px;
-    min-width: 40%;
-    max-width: 40%;
+    width: 40%;
+    min-width: 450px;
+    max-height: 115%;
     padding: 1%;
 }
 
@@ -340,8 +340,8 @@ span.titulo {
     background-color: rgba(166, 34, 186, 0.905);
     box-shadow: -20px 20px rgba(0, 0, 0, 0.5);
     border-radius: 20px;
-    min-width: 40%;
-    max-width: 40%;
+    width: 40%;
+    min-width: 450px;
     padding: 1%;
 }
 
