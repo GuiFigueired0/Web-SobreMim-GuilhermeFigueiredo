@@ -16,7 +16,18 @@ span {
 .conteudo-principal {
     height: 750px;
     border: 5px solid yellow;
+
+    display: flex;
+    background: url(../images/logo-recortada.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-end;
 }
+
+
 
 p{
     color: #fff;
@@ -350,9 +361,55 @@ span.titulo {
 }
 
 /*** PAGINA PRINCIPAL ***/
-img.logo {
-    display: block;
-    top: 0;
-    margin-left: auto;
-    margin-right: auto;
+
+/* Coluna Direita */
+#coluna-esquerda {
+    width: 30%;
+    border: 5px solid blue;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+
+#coluna-esquerda p {
+    color: #00eaff;
+}
+
+#perfil {
+    width: 400px;
+    height: 400px;
+    background: url(../images/perfil-pequeno.jpeg);
+    border-radius: 200px;
+    background-position: center;
+    background-size: cover;
+    border: 5px solid #c61bdde2;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+#coluna-direita {
+    width: 30%;
+}
+
+/* Coluna Meio */
+#coluna-meio {
+    width: 30%;
+    margin-bottom: 75px;
+    border: 5px solid green;
+    font-size: 1.8em;
+}
+
+#coluna-meio p {
+   color: #ffdc41; 
+}
+
+/*Coluna Direita */
+#coluna-direita {
+    width: 30%;
+    margin-bottom: 20px;
+    border: 5px solid red;
+    font-size: 1.2em;
+}
+
+#coluna-direita p {
+    color: #cd77ff;
 }
